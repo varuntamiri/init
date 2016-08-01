@@ -62,6 +62,7 @@ public class OrderController {
 	@Path("/getAll")
 	@Produces({ "application/xml", "application/json" })
 	public Response getAll() {
+		log.info("Inside getAll ");
 		OrderList orderVO = new OrderList();
 		List<OrderVO> list = new ArrayList<>();
 		list.addAll(TmpBuffer.getAll());
