@@ -8,7 +8,7 @@ public class Sale {
 	private Person buyer;
 	private Person seller;
 	private Car car;
-	private double cost;
+	private Double cost;
 
 	/**
 	 * @param buyer
@@ -16,7 +16,7 @@ public class Sale {
 	 * @param car
 	 * @param cost
 	 */
-	public Sale(Person buyer, Person seller, Car car, double cost) {
+	public Sale(Person buyer, Person seller, Car car, Double cost) {
 		this.buyer = buyer;
 		this.seller = seller;
 		this.car = car;
@@ -47,11 +47,11 @@ public class Sale {
 		this.car = car;
 	}
 
-	public double getCost() {
+	public Double getCost() {
 		return cost;
 	}
 
-	public void setCost(double cost) {
+	public void setCost(Double cost) {
 		this.cost = cost;
 	}
 }

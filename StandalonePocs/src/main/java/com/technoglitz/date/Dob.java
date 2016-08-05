@@ -16,7 +16,8 @@ public class Dob {
 	public static void main(String[] args) {
 		
 		Dob dob = new Dob();
-		System.out.println("Age is  = " + dob.getAge(1985, 10, 04));
+		int age = dob.getAge(1985, 10, 04);
+		System.out.println("Age is  = " + age);
 	}
 	
 	public int getAge(int year,int month, int day) {
